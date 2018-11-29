@@ -1,0 +1,119 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AECIMP_H	AecImp.h	3;"	d
+AES128	aes.h	26;"	d
+AES_BLOCKLEN	aes.h	30;"	d
+AES_CBC_decrypt_buffer	aes.c	/^void AES_CBC_decrypt_buffer(struct AES_ctx* ctx, uint8_t* buf,  uint32_t length)$/;"	f	signature:(struct AES_ctx* ctx, uint8_t* buf, uint32_t length)
+AES_CBC_decrypt_buffer	aes.h	/^void AES_CBC_decrypt_buffer(struct AES_ctx* ctx, uint8_t* buf, uint32_t length);$/;"	p	signature:(struct AES_ctx* ctx, uint8_t* buf, uint32_t length)
+AES_CBC_encrypt_buffer	aes.c	/^void AES_CBC_encrypt_buffer(struct AES_ctx *ctx,uint8_t* buf, uint32_t length)$/;"	f	signature:(struct AES_ctx *ctx,uint8_t* buf, uint32_t length)
+AES_CBC_encrypt_buffer	aes.h	/^void AES_CBC_encrypt_buffer(struct AES_ctx* ctx, uint8_t* buf, uint32_t length);$/;"	p	signature:(struct AES_ctx* ctx, uint8_t* buf, uint32_t length)
+AES_CTR_xcrypt_buffer	aes.c	/^void AES_CTR_xcrypt_buffer(struct AES_ctx* ctx, uint8_t* buf, uint32_t length)$/;"	f	signature:(struct AES_ctx* ctx, uint8_t* buf, uint32_t length)
+AES_CTR_xcrypt_buffer	aes.h	/^void AES_CTR_xcrypt_buffer(struct AES_ctx* ctx, uint8_t* buf, uint32_t length);$/;"	p	signature:(struct AES_ctx* ctx, uint8_t* buf, uint32_t length)
+AES_ECB_decrypt	aes.c	/^void AES_ECB_decrypt(struct AES_ctx* ctx, uint8_t* buf)$/;"	f	signature:(struct AES_ctx* ctx, uint8_t* buf)
+AES_ECB_decrypt	aes.h	/^void AES_ECB_decrypt(struct AES_ctx* ctx, uint8_t* buf);$/;"	p	signature:(struct AES_ctx* ctx, uint8_t* buf)
+AES_ECB_encrypt	aes.c	/^void AES_ECB_encrypt(struct AES_ctx *ctx, uint8_t* buf)$/;"	f	signature:(struct AES_ctx *ctx, uint8_t* buf)
+AES_ECB_encrypt	aes.h	/^void AES_ECB_encrypt(struct AES_ctx* ctx, uint8_t* buf);$/;"	p	signature:(struct AES_ctx* ctx, uint8_t* buf)
+AES_KEYLEN	aes.h	33;"	d
+AES_KEYLEN	aes.h	36;"	d
+AES_KEYLEN	aes.h	39;"	d
+AES_ctx	aes.h	/^struct AES_ctx$/;"	s
+AES_ctx::Iv	aes.h	/^  uint8_t Iv[AES_BLOCKLEN];$/;"	m	struct:AES_ctx	access:public
+AES_ctx::RoundKey	aes.h	/^  uint8_t RoundKey[AES_keyExpSize];$/;"	m	struct:AES_ctx	access:public
+AES_ctx_set_iv	aes.c	/^void AES_ctx_set_iv(struct AES_ctx* ctx, const uint8_t* iv)$/;"	f	signature:(struct AES_ctx* ctx, const uint8_t* iv)
+AES_ctx_set_iv	aes.h	/^void AES_ctx_set_iv(struct AES_ctx* ctx, const uint8_t* iv);$/;"	p	signature:(struct AES_ctx* ctx, const uint8_t* iv)
+AES_init_ctx	aes.c	/^void AES_init_ctx(struct AES_ctx* ctx, const uint8_t* key)$/;"	f	signature:(struct AES_ctx* ctx, const uint8_t* key)
+AES_init_ctx	aes.h	/^void AES_init_ctx(struct AES_ctx* ctx, const uint8_t* key);$/;"	p	signature:(struct AES_ctx* ctx, const uint8_t* key)
+AES_init_ctx_iv	aes.c	/^void AES_init_ctx_iv(struct AES_ctx* ctx, const uint8_t* key, const uint8_t* iv)$/;"	f	signature:(struct AES_ctx* ctx, const uint8_t* key, const uint8_t* iv)
+AES_init_ctx_iv	aes.h	/^void AES_init_ctx_iv(struct AES_ctx* ctx, const uint8_t* key, const uint8_t* iv);$/;"	p	signature:(struct AES_ctx* ctx, const uint8_t* key, const uint8_t* iv)
+AES_keyExpSize	aes.h	34;"	d
+AES_keyExpSize	aes.h	37;"	d
+AES_keyExpSize	aes.h	40;"	d
+AR	Makefile	/^AR           = ar$/;"	m
+ARFLAGS	Makefile	/^ARFLAGS      = rcs$/;"	m
+AddRoundKey	aes.c	/^static void AddRoundKey(uint8_t round,state_t* state,uint8_t* RoundKey)$/;"	f	file:	signature:(uint8_t round,state_t* state,uint8_t* RoundKey)
+AecImp	AecImp.cpp	/^AecImp::AecImp()$/;"	f	class:AecImp	signature:()
+AecImp	AecImp.h	/^    AecImp();$/;"	p	class:AecImp	access:public	signature:()
+AecImp	AecImp.h	/^class AecImp$/;"	c
+AecImp::AecImp	AecImp.cpp	/^AecImp::AecImp()$/;"	f	class:AecImp	signature:()
+AecImp::AecImp	AecImp.h	/^    AecImp();$/;"	p	class:AecImp	access:public	signature:()
+AecImp::HexStrToHex	AecImp.h	/^    std::string HexStrToHex(const std::string _str, const unsigned int _size);$/;"	p	class:AecImp	access:public	signature:(const std::string _str, const unsigned int _size)
+AecImp::IntStrToBcd	AecImp.h	/^    int IntStrToBcd(const std::string _str);$/;"	p	class:AecImp	access:public	signature:(const std::string _str)
+AecImp::decrypt_ecb	AecImp.cpp	/^std::string AecImp::decrypt_ecb(std::string _secretValue)$/;"	f	class:AecImp	signature:(std::string _secretValue)
+AecImp::decrypt_ecb	AecImp.h	/^    std::string decrypt_ecb(std::string _secretValue);$/;"	p	class:AecImp	access:public	signature:(std::string _secretValue)
+AecImp::encrypt_ecb	AecImp.cpp	/^std::string AecImp::encrypt_ecb(std::string _clearValue)$/;"	f	class:AecImp	signature:(std::string _clearValue)
+AecImp::encrypt_ecb	AecImp.h	/^    std::string encrypt_ecb(std::string _clearValue);$/;"	p	class:AecImp	access:public	signature:(std::string _clearValue)
+AecImp::get_key	AecImp.cpp	/^std::string AecImp::get_key(void)$/;"	f	class:AecImp	signature:(void)
+AecImp::get_key	AecImp.h	/^    std::string get_key(void);$/;"	p	class:AecImp	access:public	signature:(void)
+AecImp::m_key	AecImp.h	/^    std::string m_key;$/;"	m	class:AecImp	access:private
+AecImp::phex	AecImp.cpp	/^void AecImp::phex(uint8_t* str)$/;"	f	class:AecImp	signature:(uint8_t* str)
+AecImp::phex	AecImp.h	/^    void phex(uint8_t* str);$/;"	p	class:AecImp	access:public	signature:(uint8_t* str)
+AecImp::set_key	AecImp.cpp	/^int AecImp::set_key(std::string &_key)$/;"	f	class:AecImp	signature:(std::string &_key)
+AecImp::set_key	AecImp.h	/^    int set_key(std::string &_key);$/;"	p	class:AecImp	access:public	signature:(std::string &_key)
+AecImp::~AecImp	AecImp.cpp	/^AecImp::~AecImp()$/;"	f	class:AecImp	signature:()
+AecImp::~AecImp	AecImp.h	/^    virtual ~AecImp();$/;"	p	class:AecImp	access:public	signature:()
+CBC	AecImp.h	11;"	d
+CBC	aes.h	14;"	d
+CC	Makefile	/^CC           = g++$/;"	m
+CFLAGS	Makefile	/^CFLAGS       = -Wall -Os -c -g -std=c++11$/;"	m
+CTR	AecImp.h	12;"	d
+CTR	aes.h	22;"	d
+Cipher	aes.c	/^static void Cipher(state_t* state, uint8_t* RoundKey)$/;"	f	file:	signature:(state_t* state, uint8_t* RoundKey)
+ECB	AecImp.h	13;"	d
+ECB	aes.h	18;"	d
+HexStrToHex	AecImp.cpp	/^std::string HexStrToHex(const std::string _str, const unsigned int _size)$/;"	f	signature:(const std::string _str, const unsigned int _size)
+HexStrToHex	AecImp.h	/^    std::string HexStrToHex(const std::string _str, const unsigned int _size);$/;"	p	class:AecImp	access:public	signature:(const std::string _str, const unsigned int _size)
+INCLUDE_PATH	Makefile	/^INCLUDE_PATH = \/usr\/lib\/avr\/include$/;"	m
+IntStrToBcd	AecImp.cpp	/^int IntStrToBcd(const std::string _str)$/;"	f	signature:(const std::string _str)
+IntStrToBcd	AecImp.h	/^    int IntStrToBcd(const std::string _str);$/;"	p	class:AecImp	access:public	signature:(const std::string _str)
+InvCipher	aes.c	/^static void InvCipher(state_t* state,uint8_t* RoundKey)$/;"	f	file:	signature:(state_t* state,uint8_t* RoundKey)
+InvMixColumns	aes.c	/^static void InvMixColumns(state_t* state)$/;"	f	file:	signature:(state_t* state)
+InvShiftRows	aes.c	/^static void InvShiftRows(state_t* state)$/;"	f	file:	signature:(state_t* state)
+InvSubBytes	aes.c	/^static void InvSubBytes(state_t* state)$/;"	f	file:	signature:(state_t* state)
+Iv	aes.h	/^  uint8_t Iv[AES_BLOCKLEN];$/;"	m	struct:AES_ctx	access:public
+KeyExpansion	aes.c	/^static void KeyExpansion(uint8_t* RoundKey, const uint8_t* Key)$/;"	f	file:	signature:(uint8_t* RoundKey, const uint8_t* Key)
+LD	Makefile	/^LD           = gcc$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS      = -Wall -Os -Wl,-Map,AecImp.h.map$/;"	m
+MULTIPLY_AS_A_FUNCTION	aes.c	63;"	d	file:
+MixColumns	aes.c	/^static void MixColumns(state_t* state)$/;"	f	file:	signature:(state_t* state)
+Multiply	aes.c	/^static uint8_t Multiply(uint8_t x, uint8_t y)$/;"	f	file:	signature:(uint8_t x, uint8_t y)
+Multiply	aes.c	335;"	d	file:
+Nb	aes.c	46;"	d	file:
+Nk	aes.c	49;"	d	file:
+Nk	aes.c	52;"	d	file:
+Nk	aes.c	55;"	d	file:
+Nr	aes.c	50;"	d	file:
+Nr	aes.c	53;"	d	file:
+Nr	aes.c	56;"	d	file:
+OBJCOPY	Makefile	/^OBJCOPY      = objcopy$/;"	m
+OBJCOPYFLAGS	Makefile	/^OBJCOPYFLAGS = -j .text -O ihex$/;"	m
+Rcon	aes.c	/^static const uint8_t Rcon[11] = {$/;"	v	file:
+RoundKey	aes.h	/^  uint8_t RoundKey[AES_keyExpSize];$/;"	m	struct:AES_ctx	access:public
+SPLINT	Makefile	/^SPLINT       = splint AecImp.h.c aes.c -I$(INCLUDE_PATH) +charindex -unrecog$/;"	m
+ShiftRows	aes.c	/^static void ShiftRows(state_t* state)$/;"	f	file:	signature:(state_t* state)
+SubBytes	aes.c	/^static void SubBytes(state_t* state)$/;"	f	file:	signature:(state_t* state)
+XorWithIv	aes.c	/^static void XorWithIv(uint8_t* buf, uint8_t* Iv)$/;"	f	file:	signature:(uint8_t* buf, uint8_t* Iv)
+_AES_H_	aes.h	2;"	d
+decrypt_ecb	AecImp.cpp	/^std::string AecImp::decrypt_ecb(std::string _secretValue)$/;"	f	class:AecImp	signature:(std::string _secretValue)
+decrypt_ecb	AecImp.h	/^    std::string decrypt_ecb(std::string _secretValue);$/;"	p	class:AecImp	access:public	signature:(std::string _secretValue)
+encrypt_ecb	AecImp.cpp	/^std::string AecImp::encrypt_ecb(std::string _clearValue)$/;"	f	class:AecImp	signature:(std::string _clearValue)
+encrypt_ecb	AecImp.h	/^    std::string encrypt_ecb(std::string _clearValue);$/;"	p	class:AecImp	access:public	signature:(std::string _clearValue)
+getSBoxInvert	aes.c	149;"	d	file:
+getSBoxValue	aes.c	142;"	d	file:
+get_key	AecImp.cpp	/^std::string AecImp::get_key(void)$/;"	f	class:AecImp	signature:(void)
+get_key	AecImp.h	/^    std::string get_key(void);$/;"	p	class:AecImp	access:public	signature:(void)
+m_key	AecImp.h	/^    std::string m_key;$/;"	m	class:AecImp	access:private
+main	AecImp.cpp	/^int main(void)$/;"	f	signature:(void)
+phex	AecImp.cpp	/^void AecImp::phex(uint8_t* str)$/;"	f	class:AecImp	signature:(uint8_t* str)
+phex	AecImp.h	/^    void phex(uint8_t* str);$/;"	p	class:AecImp	access:public	signature:(uint8_t* str)
+rsbox	aes.c	/^static const uint8_t rsbox[256] = {$/;"	v	file:
+sbox	aes.c	/^static const uint8_t sbox[256] = {$/;"	v	file:
+set_key	AecImp.cpp	/^int AecImp::set_key(std::string &_key)$/;"	f	class:AecImp	signature:(std::string &_key)
+set_key	AecImp.h	/^    int set_key(std::string &_key);$/;"	p	class:AecImp	access:public	signature:(std::string &_key)
+state_t	aes.c	/^typedef uint8_t state_t[4][4];$/;"	t	file:
+xtime	aes.c	/^static uint8_t xtime(uint8_t x)$/;"	f	file:	signature:(uint8_t x)
+~AecImp	AecImp.cpp	/^AecImp::~AecImp()$/;"	f	class:AecImp	signature:()
+~AecImp	AecImp.h	/^    virtual ~AecImp();$/;"	p	class:AecImp	access:public	signature:()
